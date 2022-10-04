@@ -452,7 +452,7 @@ img{
     }
     .portfolio__container{
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(2,1fr);
+       /* grid-template-rows: repeat(2,1fr);*/
         column-gap: 2rem;
     }
     .contact__container{
@@ -481,7 +481,7 @@ img{
         height: 640px;
     }
     .home__img{
-        width: 500px;
-        right: 24%;
+        width: 400px;
+        right: 4%;
     }
 }
