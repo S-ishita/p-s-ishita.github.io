@@ -253,6 +253,7 @@ img{
     margin-bottom: var(--mb-3);
 }
 .skills__name{
+    color: var(--first-color);
     display: inline-block;
     font-size: var(--small-font-size);
     margin-right: var(--mb-2);
