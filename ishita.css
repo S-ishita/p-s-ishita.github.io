@@ -85,7 +85,7 @@ img{
 .section-title{
     position: relative;
     font-size: var(--h2-font-size);
-    color: var(--dark color);
+    color: var(--dark-color);
     margin: var(--mb-4) 0;
     text-align: center;
 }
