@@ -45,7 +45,7 @@
                     <a href="#about" class="home__scroll-link"><i class="bx bx-up-arrow-alt"></i>Scroll Down</a>
                 </div>
 
-                <img src="coder.jpg" alt="" class="home__img">
+                <img src="assets/coder.jpg" alt="" class="home__img">
             </div>
         </section>
 
@@ -54,7 +54,7 @@
             <h2 class="section-title"> About</h2>
             <div class="about__container bd-grid">
                 <div class="about__img">
-                    <img src="ishitahome.png" alt="">
+                    <img src="assets/ishitahome.png" alt="">
                 </div>
                 <div>
                     <h2 class="about__subtitle">I'm Ishita Singhal</h2>
@@ -86,8 +86,8 @@
                 </div>
 
                 <div class="skills__img">
-                    <img src="des.png" alt="">
-                    <img src="lang.png" alt="">
+                    <img src="assets/des.png" alt="">
+                    <img src="assets/lang.png" alt="">
                 </div>
             </div>
         </section>
@@ -102,7 +102,7 @@
 
                     <div class="portfolio__link">
                          <a href="https://www.codechef.com/users/ishita1_6" class="portfolio__link-name">
-                               <img src="codechef.png" alt="">View Details</a>
+                               <img src="assets/codechef.png" alt="">View Details</a>
                     </div>
                 </div>
                 <div class="portfolio__img">
@@ -112,7 +112,7 @@
 
                     <div class="portfolio__link">
                          <a href="https://www.hackerrank.com/ishita16" class="portfolio__link-name">
-                              <img src="hackerRank.png" alt="">View Details</a>
+                              <img src="assets/hackerRank.png" alt="">View Details</a>
                     </div>
                 </div>
                 <div class="portfolio__img">
@@ -121,7 +121,7 @@
 
                     <div class="portfolio__link">
                          <a href="https://auth.geeksforgeeks.org/user/ishita016" class="portfolio__link-name">
-                              <img src="gfg.png" alt="">View Details</a>
+                              <img src="assets/gfg.png" alt="">View Details</a>
                     </div>
                 </div>
                   <div class="portfolio__img">
@@ -130,7 +130,7 @@
 
                     <div class="portfolio__link">
                          <a href="https://s-ishita.github.io/tetris-s-ishita.github.io/" class="portfolio__link-name">
-                              <img src="tetris.png" alt="">View Details</a>
+                              <img src="assets/tetris.png" alt="">View Details</a>
                     </div>
                 </div>
                   <div class="portfolio__img">
@@ -139,7 +139,7 @@
 
                     <div class="portfolio__link">
                          <a href="https://leaderboard.jwoc.tech/" class="portfolio__link-name">
-                              <img src="jwoc.png" alt="">View Details</a>
+                              <img src="assets/jwoc.png" alt="">View Details</a>
                     </div>
                 </div>
                 <div class="portfolio__img">
@@ -148,7 +148,7 @@
 
                     <div class="portfolio__link">
                          <a href="https://certificate.givemycertificate.com/c/f616ae08-1027-475a-a7a3-59b612317685" class="portfolio__link-name">
-                              <img src="sheBuilds.png" alt="">View Details</a>
+                              <img src="assets/sheBuilds.png" alt="">View Details</a>
                     </div>
                 </div>
 
@@ -207,12 +207,35 @@
             </div>
         </div>
     </footer>
+    <!--chatbot-->
+            <script type="text/javascript"
+        src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
 
+
+        <script>
+            var alanBtnInstance = alanBtn({
+            key: "410d98d30ce6489164a5a62bdae65be32e956eca572e1d8b807a3e2338fdd0dc/stage",
+            bottom: '50px',
+        right: '50px',
+            onCommand: function (commandData) {
+            if (commandData && commandData.command === 'openURL') {
+                    if (commandData.target === '_blank'){
+                        window.open(commandData.url,'_newtab' + Math.floor(Math.random()*999999));
+                    } else {
+                        window.location.href = commandData.url;
+                    }
+                    }
+
+            },
+
+            rootEl: document.getElementById("alan-btn"),
+            });
+        </script>
     <!--scroll reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--main js-->
-    <script src="/main.js"></script>
+    <script src="main.js"></script>
 
 </body>
 </html>

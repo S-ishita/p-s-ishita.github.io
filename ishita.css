@@ -68,6 +68,9 @@ ul{
     padding: 0;
     list-style: none;
 }
+li{
+   list-style: none;
+}
 a{
     text-decoration: none;
     color: var(--text-color);
@@ -239,9 +242,8 @@ img{
 .about__social-icon{
     font-size: 1.4rem;
     margin: 0 var(--mb-1);
-    
 }
-.about-social-icon:hover{
+.about__social-icon:hover{
     color:var(--first-color);
 }
 /*skills*/
