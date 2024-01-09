@@ -73,3 +73,8 @@ sr.reveal('.contact__subtitle',{})
 sr.reveal('.contact__text',{interval: 200})
 sr.reveal('.contact__input',{delay: 400})
 sr.reveal('.contact__button',{delay: 600})
+
+//scroll education
+sr.reveal('.date',{})
+sr.reveal('.institute',{interval: 200})
+sr.reveal('.stream',{delay: 400})
